@@ -54,7 +54,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       setUser(mockUser);
       
       // Redirect based on role
-      if (mockUser.role === 'admin') {
+      if (mockUser?.role === 'admin') {
         router.push('/admin/dashboard');
       } else {
         router.push('/parent/dashboard');
