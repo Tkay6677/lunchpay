@@ -9,7 +9,8 @@ import {
   CardContent, 
   CardDescription, 
   CardHeader, 
-  CardTitle 
+  CardTitle,
+  CardFooter
 } from '@/components/ui/card';
 import { ArrowLeft, Download, Search, Filter, CircleDollarSign } from 'lucide-react';
 import { Input } from '@/components/ui/input';
